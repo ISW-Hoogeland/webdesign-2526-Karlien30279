@@ -1,3 +1,10 @@
+:root {
+    --purple: #af7de9;
+    --darkpurple: #6920df; 
+    --pastelpink: #eb7dd3; 
+    --blue: #53c9c9; 
+    --orange: #f7955c; 
+}
 body {
 display: grid;
 grid-template-areas:
@@ -14,3 +21,12 @@ main {
 grid-area: main; }
 footer {
 grid-area: footer; }
+nav ul {
+list-style: none; 
+}
+nav a {
+text-decoration: none;
+}
+nav a:hover {
+text-decoration: underline;
+}
