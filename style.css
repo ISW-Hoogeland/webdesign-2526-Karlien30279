@@ -14,7 +14,8 @@ grid-template-areas:
 grid-template-columns: 2fr 1fr;
 grid-template-rows: 120px 1fr 60px; }
 header {
-grid-area: header; }
+grid-area: header;
+}
 nav {
 grid-area: nav; }
 main {
@@ -27,6 +28,16 @@ list-style: none;
 nav a {
 text-decoration: none;
 }
+nav ul li {
+margin: 20px;
+
+}
 nav a:hover {
 text-decoration: underline;
+}
+nav ul li {
+    padding: 10px;
+}
+h1 {
+    color: var(--darkpurple);
 }
