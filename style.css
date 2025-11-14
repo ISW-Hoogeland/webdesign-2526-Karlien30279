@@ -4,6 +4,7 @@
     --pastelpink: #eb7dd3; 
     --blue: #53c9c9; 
     --orange: #f7955c; 
+    --white: #ffffff; 
 }
 body {
 display: grid;
@@ -39,5 +40,5 @@ nav ul li {
     padding: 10px;
 }
 h1 {
-    color: var(--darkpurple);
+    color: var(--white);
 }
